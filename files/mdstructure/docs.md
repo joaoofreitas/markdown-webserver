@@ -24,8 +24,7 @@ We can call this mode also by deep _sleep mode_.
 The ESP32 architecture is quite simple.
 It's composed by Wi-Fi and Bluetooth Modules for wireless comunication, a Radio that recieves and sends data using those communication interfaces.
 The cryptographic hardware acceleration. The embeed flash module. And the importante part here. The main core and memories of the ESP and the RTC and Low Power Subsystem.
-
-![Architecture](arch.png)
+![Architecture](mdstructure/arch.png)
 
 As you can see, in the _RTC and low-power subsystem_ theres 3 parts.
 1. PMU (Phasor Mesurement Unit)
@@ -135,7 +134,7 @@ This file carrys not only his own code but also the _ULP Co-Processor_ code that
 
 The Assembly file accepts just a certain types of instructions that are following:
 
-![Accepted Commands](commands.png)
+![Accepted Commands](mdstructure/commands.png)
 
 ### 7. Examples of Programs
 
