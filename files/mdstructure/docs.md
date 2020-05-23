@@ -63,7 +63,7 @@ Let's do an average since the time during both is the same 1 second.
 
 __Deep Sleep Mode Average Current__
 
-$I=\frac{50mA + 0.01mA}{2}= 25.0005mA$
+$I=\frac{50mA + 0.01mA}{2}=25.0005mA$
 
 This would be an average current of 25.0005 mA.
 
