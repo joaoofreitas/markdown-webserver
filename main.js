@@ -9,7 +9,7 @@ var html = new EventEmitter();
 
 showdown.setFlavor('github');
 
-fs.readFile('files/mdstructure/docs.md', 'utf8', (err, data) => {
+fs.readFile('files/mdstructure/markdown.md', 'utf8', (err, data) => {
     if (err) {
 	console.log(err);
     }
