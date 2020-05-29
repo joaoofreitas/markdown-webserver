@@ -19,7 +19,7 @@ This application is build using NodeJS, Express for easy hosting, ShowdownJS for
 
 [Github-Markdown-CSS](https://github.com/sindresorhus/github-markdown-css)
 
-### Instalation 📲
+### Installation 📲
 
 __To install this repository simply:__
  1. Make sure you have npm (Node Package Manager)
@@ -29,7 +29,7 @@ __To install this repository simply:__
 
  3. Enter to the folder in the terminal
 
- > cd mardown-webserver
+ > cd markdown-webserver
 
  4. Install the dependencies:
 
@@ -45,7 +45,7 @@ __To install this repository simply:__
 
 ### Running your own Markdown 📟
 
-1. Place your _.md_ file in _files/mdstructure/ and rename it has __markdown.md__ .
+1. Place your _.md_ file in _files/mdstructure/_ and rename it has __markdown.md__ .
 2. Run the server with npm start
 
 > __NOTE:__ Make sure you are inside the repository before running __npm start__. Otherwise you will get an error.
