@@ -1,13 +1,13 @@
-# Markdown Webserver
+# Markdown Webserver 📄
 
 A NodeJS Application that transcripts Markdown to HTML, supporting MathJax and with Github CSS Markdown like a style. Serving itself has a server.
 
-### What does it do?
+### What does it do? 🤠
 This application serves has a Markdown Viewer. 
 
 It's perfect for publishing fast websites, convert from Markdown to HTML and Custom CSS it or even post a website quickly, based on you application documentation.
 
-### How is it build?
+### How is it build? 🔨
 This application is build using NodeJS, Express for easy hosting, ShowdownJS for the easy transcription. Github-markdown-css for the CSS like style, and MathJax for Math support.
 
 
@@ -19,7 +19,7 @@ This application is build using NodeJS, Express for easy hosting, ShowdownJS for
 
 [Github-Markdown-CSS](https://github.com/sindresorhus/github-markdown-css)
 
-### Instalation
+### Instalation 📲
 
 __To install this repository simply:__
  1. Make sure you have npm (Node Package Manager)
@@ -43,14 +43,14 @@ __To install this repository simply:__
 
  ##### All done!
 
-### Running your own Markdown
+### Running your own Markdown 📟
 
 1. Place your _.md_ file in _files/mdstructure/ and rename it has __markdown.md__ .
 2. Run the server with npm start
 
 > __NOTE:__ Make sure you are inside the repository before running __npm start__. Otherwise you will get an error.
 
-### Docker
+### Docker 🐳
 
 This application has also a Docker image so you can run it and deploy it in a Docker Container. Or even building it with an Nginx Proxy and a Let's Encrypt Proxy Companion. 
 
