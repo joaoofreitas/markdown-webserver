@@ -1,0 +1,23 @@
+{
+  "name": "markdown-webserver",
+  "version": "1.0.0",
+  "description": "A NodeJS Application that transcripts Markdown to HTML, supporting MathJax and with Github CSS Markdown like a style. Serving itself has a server.",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joaoofreitas/markdown-webserver.git"
+  },
+  "author": "João Freitas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joaoofreitas/markdown-webserver/issues"
+  },
+  "homepage": "https://github.com/joaoofreitas/markdown-webserver#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "showdown": "^1.9.1"
+  }
+}
