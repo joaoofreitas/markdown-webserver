@@ -8,10 +8,12 @@ This application serves has a Markdown Viewer.
 It's perfect for publishing fast websites, convert from Markdown to HTML and Custom CSS it or even post a website quickly, based on you application documentation.
 
 ### How is it build? 🔨
-This application is build using NodeJS, Express for easy hosting, ShowdownJS for the easy transcription. Github-markdown-css for the CSS like style, and MathJax for Math support.
+This application is build using NodeJS, Express for easy hosting, ShowdownJS for the easy transcription. Github-markdown-css for the CSS like style, MathJax for Math support, and HighlightJS for code highlighting.
 
 
 [MathJax](https://github.com/mathjax/MathJax)
+
+[HighlightJS](https://github.com/highlightjs/highlight.js)
 
 [ExpressJS](https://github.com/expressjs/express)
 
