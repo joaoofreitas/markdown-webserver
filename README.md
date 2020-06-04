@@ -25,23 +25,23 @@ __To install this repository simply:__
  1. Make sure you have npm (Node Package Manager)
  2. Download the repository.
  
- > git clone https://github.com/joaoofreitas/markdown-webserver.git
+ `git clone https://github.com/joaoofreitas/markdown-webserver.git`
 
  3. Enter to the folder in the terminal
 
- > cd markdown-webserver
+ `cd markdown-webserver`
 
  4. Install the dependencies:
 
- > npm install
+ `npm install`
 
  5. Run the server
 
- > npm start
+ `npm start`
 
  6. Visit the website in your browser in localhost
 
- ##### All done!
+##### All done!
 
 ### Running your own Markdown 📟
 
@@ -56,9 +56,10 @@ This application has also a Docker image so you can run it and deploy it in a Do
 
 For that you just need do build the docker image with docker build inside the program folder.
 
-> Example:   
-> user@localhost ~/markdown--webserver docker build -t <IMAGE_NAME> .
+`__Example:__`
+
+` user@localhost ~/markdown--webserver docker build -t <IMAGE_NAME> .`
 
 To run the container:
 
-> docker run -p 80:80 <IMAGE_NAME>
+`docker run -p 80:80 <IMAGE_NAME>`
