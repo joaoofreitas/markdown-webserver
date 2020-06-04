@@ -58,7 +58,7 @@ This application has also a Docker image so you can run it and deploy it in a Do
 
 For that you just need do build the docker image with docker build inside the program folder.
 
-`__Example:__`
+__Example:__`
 
 ` user@localhost ~/markdown--webserver docker build -t <IMAGE_NAME> .`
 
