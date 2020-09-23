@@ -1,8 +1,9 @@
-const express = require('express')
-const app = express()
 const showdown = require('showdown')
 const fs = require('fs')
 const EventEmitter = require("events").EventEmitter;
+
+const express = require('express')
+const app = express()
 
 var markdown = new EventEmitter();
 var html = new EventEmitter();
