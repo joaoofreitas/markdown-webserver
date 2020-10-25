@@ -1,6 +1,6 @@
 # Markdown Webserver 📄
 
-A NodeJS Application that transcripts Markdown to HTML, supporting MathJax and with Github CSS Markdown like a style. Serving itself has a server.
+A NodeJS Application that transcripts Markdown to HTML, supporting MathJax and with Github CSS Markdown like a style. Serving itself as a server.
 
 ### What does it do? 🤠
 This application serves has a Markdown Viewer. 
